@@ -1,0 +1,32 @@
+*{margin:0;padding:0}
+a{text-decoration: none;}
+a:hover{text-decoration: none;}
+body{font-size: segoe ui;background-image: url(bt2505/2505.jpg)}
+.flex{width: 1000px;margin: auto;display:flex;}
+.menu{width: 1000px;margin: auto;margin-top:30px;margin-bottom:50px}
+.menu .b1{background-color:grey;padding:5px 15px;color:white}
+.menu .b1.b2{margin-left: 20px;margin-right: 20px;}
+.menu .b1:hover{background-color: rgb(22, 21, 21);color:white;}
+.menu .b1.b4{margin-left: 20px;margin-right: 20px;}
+.menu .b1.b5{margin-right: 20px;}
+.menu .b1.b6{margin-right: 20px;}
+.menu .b1.b7{margin-right: 20px;}
+.to.anh2{background-image:url(bt2505/bai4.1.jpg)}
+.to.anh2 .a1{background-image:url(bt2505/bai4.1.jpg)}
+.menu .b1.b5{opacity: 50%;}
+/*  */
+.to{width:220px;height:220px;box-shadow: 0 0 0 20px #c4c6ef29 inset;background-image: url(bt2505/bai5.jpg);background-position: center;border-radius:50%;position:relative;margin-right: 100px;}
+.to .l1{width:180px;height:180px;background:#f9f8f8;border-radius:50%;position:absolute;left:20px;top:20px;box-shadow: 0 0 0 20px #ffffff45;opacity:0;transition:0.3s}
+.to .l2{background-image:url(bt2505/bai5.jpg);border-radius:50%;opacity:0;transition:0.8s;width:180px;height:180px;position:absolute;top:20px;left:20px;}
+.to .l3{display:flex;justify-content:center;text-align:center;align-items:center;background-color:#101072;border-radius:50%;transition:0.8s;width:180px;height:180px;position:absolute;top:20px;left:20px;transform:scale(1.5);opacity:0;transition-delay:0.1s}
+.to .l3 .khoi{color:white}
+.to .l3 .khoi h1{font-size:20px;border-bottom:1px solid white;padding-bottom:20px;margin-bottom:4px}
+.to .l3 .khoi i{font-size:13px;}
+.to .l3 .khoi .thea{font-size:11px;padding-top:4px}
+.to .l3 .khoi .thea a{color:#ff3800;font-weight:bold;transition:0.3s}
+.to:hover .l1{opacity:1}
+.to:hover .l2{transform:scale(0.1);opacity:1}
+.to:hover .l3{transform:scale(1);opacity:1}
+.to .l3 .khoi .thea a:hover{color:white}
+.to.anh2{background-image: url(bt2505/bai5.2.jpg)}
+.to.anh2 .l2{background-image: url(bt2505/bai5.2.jpg)}

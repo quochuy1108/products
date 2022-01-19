@@ -1,0 +1,50 @@
+.to{
+    width: 200px;
+    height: 200px;
+    perspective: 500px;
+    margin: auto;
+    margin-top: 100px;
+}
+.to .khoi{
+    width: 200px;
+    height: 200px;
+    transform-style: preserve-3d;
+    position: relative;
+    transition: 1s;
+    transform: rotateY(146deg) rotateX(-53deg);
+}
+.khoi.so1{transform: rotateY(0deg) rotateX(0deg)}
+.khoi.so2{transform: rotateY(-90deg) rotateX(0deg)}
+.khoi.so3{transform: rotateY(90deg) rotateX(0deg)}
+.khoi.so4{transform: rotateY(0deg) rotateX(-90deg)}
+.khoi.so5{transform: rotateY(0deg) rotateX(90deg)}
+.khoi.so6{transform: rotateY(180deg) rotateX(0deg)}
+.to .khoi div{
+    width: 200px;
+    height: 200px;
+    background-color: rgba(0, 0, 0, .4);
+    color: white;
+    line-height: 200px;
+    text-align: center;
+    font-size: 50px;
+    position: absolute;
+}
+.to .khoi .khoi1{  
+    transform:translateZ(100px);
+}
+.to .khoi .khoi2{transform: rotateY(90deg) translateZ(100px);}
+.to .khoi .khoi3{
+    transform: rotateY(-90deg) translateZ(100px)
+}
+.to .khoi .khoi4{
+    transform: rotateX(90deg) translateZ(100px)
+}
+.to .khoi .khoi5{
+    transform: rotateX(-90deg) translateZ(100px)
+}
+.to .khoi .khoi6{transform: translateZ(-100px) rotateY(180deg);}
+
+.container{
+    text-align: center;
+    margin-top: 50px;
+}

@@ -1,0 +1,35 @@
+*{margin:0;padding:0}
+a{text-decoration: none;}
+a:hover{text-decoration: none;}
+body{font-size: segoe ui;background-image: url(bt2505/2505.jpg)}
+/*  */
+.bai6{width: 400px;height: 400px;overflow: hidden;border-radius: 50%;transition: 0.5s;box-shadow: 0px 0px 0 30px #f3eeeea1 inset;background-image: url(bt2505/anh1.jpg);background-size:cover;position: relative;}
+.bai6.anh2{background-image: url(bt2505/anh2.jpg);}
+.bai6:hover{box-shadow:0px 0px 0px 0px #f1efef00 inset;}
+/*  */
+.bai6 .lop1{position: absolute;width: 100%;height: 100%;background-color: rgba(96, 142, 141, 0.9);display:flex;text-align:center;justify-content:center;align-items:center;opacity:0;transition:0.5s;transform:scale(0.2);border-radius:50%}
+.bai6 .lop1 .khoi{color:white;opacity}
+.bai6 .lop1 .khoi2{transition:3s;opacity:0}
+.bai6 .lop1 .khoi3{transition-delay:0.6s;opacity:0}
+.bai6 .lop1 .khoi h1{width:250px;padding-bottom:50px;transition:3s;}
+.bai6 .lop1 .khoi .vach{border-bottom:1px solid white;transition:3s}
+.bai6 .lop1 .khoi p{margin:0;padding-top:10px;font-size:18px;transition:3s;font-style: italic;}
+.bai6 .lop1 .khoi a{color:white;font-weight:bold;opacity:80%;transition:0.3s;font-size:18px;transition:3s;letter-spacing:1px}.
+.bai6 .lop1 .khoi a:hover{color:#d4d412}
+.bai6:hover .lop1 .khoi2{opacity:1}
+.bai6:hover .lop1 .khoi3{opacity:1}
+.bai6:hover .lop1{opacity:1;transform: scale(1)}
+.flex{width: 1000px;display: flex;justify-content: space-between;margin: auto;}
+/*  */
+.menu{width: 1000px;margin: auto;margin-top:30px;margin-bottom:50px}
+.menu .b1{background-color:grey;padding:5px 15px;color:white}
+.menu .b1.b2{margin-left: 20px;margin-right: 20px;}
+.menu .b1:hover{background-color: rgb(22, 21, 21);color:white;}
+
+.menu .b1.b4{margin-left: 20px;margin-right: 20px;}
+.menu .b1.b5{margin-right: 20px;}
+.menu .b1.b6{margin-right: 20px;}
+.menu .b1.b7{margin-right: 20px;}
+.to.anh2{background-image:url(bt2505/bai4.1.jpg)}
+.to.anh2 .a1{background-image:url(bt2505/bai4.1.jpg)}
+.menu .b1.goc{opacity: 50%;}

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      .block {
+        width: 80%;
+        height: 100%;
+        border: 1px solid;
+        text-align: center;
+        margin: auto;
+        margin-top: 32px;
+      }
+      h1 {
+        margin: 32px 0px;
+      }
+      img {
+        border: 1px solid;
+        width: 300px;
+        height: 300px;
+        margin: 32px;
+      }
+      button {
+        margin: 32px 0px;
+        padding: 12px 60px;
+        border-radius: 25px;
+        outline: none;
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="block">
+      <h1>Random image generator</h1>
+      <div class="img-group">
+        <img src=" " class="img" />
+        <img src=" " class="img2" />
+        <img src=" " class="img3" />
+      </div>
+      <button class="btn">Generate</button>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>

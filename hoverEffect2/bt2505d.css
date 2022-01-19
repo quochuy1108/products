@@ -1,0 +1,22 @@
+.to{width:220px;height:220px;position:relative;background-image:url(bt2505/bai4.jpg);border-radius:50%;background-position:center;box-shadow: 0 0 0 20px #ffffff00 inset;margin-right:100px}
+.to .trang{width:180px;height:180px;background-image: url(bt2505/2505.jpg);border-radius:50%;position:absolute;left:20px;top:20px;box-shadow: 0 0 0 20px #ffffff45;transition:0.5s}
+.to .a1, .to .a2{width:180px;height:180px;position:absolute;top:20px;left:20px;transition:1s;backface-visibility:hidden;transition:0.5s}
+.to .a1{background-image:url(bt2505/bai4.jpg);background-position:center;;border-radius:50%;}
+.to .a2{background-color:black;color:white;display:flex;justify-content:center;align-items:center;transform:rotateY(-180deg);border-radius:50%}
+.to:hover .a2{transform:rotateY(0deg)}
+.to:hover .a1{transform:rotateY(180deg)}
+.to:hover .trang{box-shadow: 0 0 0 0px #ffffff7d}
+.flex{width: 1000px;margin: auto;display:flex;}
+.menu{width: 1000px;margin: auto;margin-top:30px;margin-bottom:50px}
+.menu .b1{background-color:grey;padding:5px 15px;color:white}
+.menu .b1.b2{margin-left: 20px;margin-right: 20px;}
+.menu .b1:hover{background-color: rgb(22, 21, 21);color:white;}
+
+.menu .b1.b4{margin-left: 20px;margin-right: 20px;}
+.menu .b1.b5{margin-right: 20px;}
+.menu .b1.b6{margin-right: 20px;}
+.menu .b1.b7{margin-right: 20px;}
+.to.anh2{background-image:url(bt2505/bai4.1.jpg)}
+.to.anh2 .a1{background-image:url(bt2505/bai4.1.jpg)}
+.menu .b1.b4{opacity: 50%;}
+body{font-size: segoe ui;background-image: url(bt2505/2505.jpg)}

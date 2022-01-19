@@ -1,0 +1,60 @@
+.banner{
+    background-image: url(01.jpg);
+    height: 120px;
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+.menu {
+    background: #ce2020;
+    height: 50px;
+    font-size: 20px;
+    transition: 0.4s;
+}
+
+.menu a {
+    color: white;
+    padding: 0 20px;
+    font-weight: 600;
+}
+
+.container {
+    padding-top: 8px;
+}
+.ad {
+    padding: 20px 0px;
+}
+img{width: 100%;}
+.menuden{
+    position: fixed;
+    top:0;
+    background-color: black;
+    z-index: 1;
+    width: 100%;
+}
+.mid.hienthi {
+    position: fixed;
+    top:49px;
+    width: 352px;
+}
+img.s3 {
+    opacity: 0;
+    transition: 0.4s;
+}
+img.s3.cd{
+    animation: cd 1s forwards;
+}
+@-webkit-keyframes cd{
+    from{transform: translateY(100px);opacity: 0;}
+    to{transform: translateY(0px);opacity: 1;}
+}
+
+img.s2 {
+    opacity: 0;
+}
+img.s2.cd2{
+    animation: cd2 1s  forwards;
+}
+@-webkit-keyframes cd2{
+    from{transform: translateX(-100px);opacity: 0;}
+    to{transform: translateX(0px);opacity: 1;}
+}

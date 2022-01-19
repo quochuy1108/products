@@ -1,0 +1,35 @@
+*{margin:0;padding:0}
+a{text-decoration: none;}
+a:hover{text-decoration: none;}
+body{font-size: segoe ui;background-image: url(bt2505/2505.jpg)}
+.flex{width: 1000px;margin: auto;display:flex;}
+.menu{width: 1000px;margin: auto;margin-top:30px;margin-bottom:50px}
+.menu .b1{background-color:grey;padding:5px 15px;color:white}
+.menu .b1.b2{margin-left: 20px;margin-right: 20px;}
+.menu .b1:hover{background-color: rgb(22, 21, 21);color:white;}
+.menu .b1.b4{margin-left: 20px;margin-right: 20px;}
+.menu .b1.b5{margin-right: 20px;}
+.menu .b1.b6{margin-right: 20px;}
+.menu .b1.b7{margin-right: 20px;}
+.to.anh2{background-image:url(bt2505/bai4.1.jpg)}
+.to.anh2 .a1{background-image:url(bt2505/bai4.1.jpg)}
+.menu .b1.b6{opacity: 50%;}
+/*  */
+.to{width:220px;height:220px;box-shadow: 0 0 0 20px #c4c6ef29 inset;background-image: url(bt2505/bai6.jpg);background-position: center;border-radius:50%;position:relative;margin-right: 100px;perspective:500px ;}
+.to .l0{opacity:0;width:180px;height:180px;background-image:url(bt2505/2505.jpg);border-radius:50%;position:absolute;left:20px;top:20px;top:50%;transform:translatey(-50%);box-shadow: inset 0 0 2px 0px #1f1e1ecc;}
+.to .l1{transition-delay:0.1s;width:180px;height:180px;background: #ed470852;border-radius:50%;position:absolute;left:20px;top:20px;box-shadow: inset 0 0 0 0px #1f1e1ecc;}
+.to .l2{background-position:center;background-image:url(bt2505/bai6.jpg);border-radius:50%;opacity:;transition:0.8s;width:180px;height:180px;position:absolute;top:20px;left:20px;transform-origin:0 75%;transform:rotateX(0deg);top:50%;transform:translatey(-50%);transition-delay:0.1s;}
+.to .l3{display:flex;justify-content:center;text-align:center;align-items:center;border-radius:50%;width:180px;height:180px;position:absolute;top:20px;left:20px;opacity:0;transition:0.6s}
+.to .l3 .khoi{color:white}
+.to .l3 .khoi h1{font-size:20px;border-bottom:1px solid white;padding-bottom:20px;margin-bottom:4px}
+.to .l3 .khoi i{font-size:13px;}
+.to .l3 .khoi .thea{font-size:11px;padding-top:4px}
+.to .l3 .khoi .thea a{color:white;font-weight:bold;transition:0.3s}
+/*  */
+.to:hover .l0{opacity:1}
+.to:hover .l1{opacity:1}
+.to:hover .l2{transform:rotateX(180deg);}
+.to:hover .l3{opacity:1;}
+.to.anh2{background-image: url(bt2505/bai6.2.jpg)}
+.to.anh2 .l2{background-image: url(bt2505/bai6.2.jpg)}
+

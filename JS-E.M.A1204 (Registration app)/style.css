@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.parent {
+  display: flex;
+  align-items: center;
+  height: 80vh;
+  justify-content: center;
+}
+form {
+  width: 22%;
+  padding: 16px;
+  border: 1px solid;
+  padding-bottom: 72px;
+}
+h1 {
+  text-align: center;
+}
+.space {
+  margin: 16px 0;
+  color: rgb(34, 214, 34);
+  text-align: center;
+  visibility: hidden;
+}
+.form-group {
+  margin-bottom: 16px;
+}
+label,
+input {
+  display: block;
+}
+input {
+  width: 100%;
+}
+small {
+  color: red;
+}
+.submit {
+  padding: 4px 8px;
+  background-color: #5050a7;
+  color: white;
+  border-radius: 2px;
+}

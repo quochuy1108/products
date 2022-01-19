@@ -1,0 +1,27 @@
+.menu{
+    background: #ce4343;
+    height: 55px;
+    width: 100%;
+    position: fixed;
+    top: 80px;
+    transition: 0.3s;
+}
+.menu.black{background-color: #333;top:0}
+.menu.relative{position: relative;}
+.menu .menu-block{
+   list-style: none;
+    padding: 0;
+    width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    height: 100%;
+    align-items: center;
+}
+.menu .menu-list{
+    color: white;
+    font-size: 20px;
+}
+h1{transition: 0.3s;}
+.chuTo.toHon{font-size: 48px;}
+

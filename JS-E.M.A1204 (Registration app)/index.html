@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="parent">
+      <form action="">
+        <h1>Registration Form</h1>
+        <div class="space">You have registered successfully</div>
+        <div class="form-group">
+          <label for="nameUser">Username:</label>
+          <input
+            type="text"
+            name="nameUser"
+            id="nameUser"
+            class="form-control"
+            placeholder=""
+            isrequired
+          />
+          <small id="helpId" class="errorMessage"></small>
+        </div>
+        <div class="form-group">
+          <label for="password">Password:</label>
+          <input
+            type="password"
+            name="password"
+            id="password"
+            class="form-control"
+            placeholder=""
+            isrequired
+          />
+          <small id="helpId" class="errorMessage"></small>
+        </div>
+        <div class="form-group">
+          <label for="confirm-password">Confirm your password:</label>
+          <input
+            type="password"
+            name="confirm-password"
+            id="confirm-password"
+            class="form-control"
+            placeholder=""
+            isrequired
+          />
+          <small id="helpId" class="errorMessage"></small>
+        </div>
+        <!-- submit -->
+        <button type="submit" class="submit">Register</button>
+      </form>
+    </div>
+    <script>
+      var nameUser = document.getElementById("nameUser");
+      var password = document.getElementById("password");
+      var confirm_password = document.getElementById("confirm-password");
+      var form = document.querySelector("form");
+      var smallText = document.querySelectorAll("small");
+      var success = document.querySelector(".space");
+
+      function errorName(values) {
+        nameUser.oninput = function () {
+          smallText[0].innerHTML = "";
+        };
+        if (nameUser.value == "") {
+          return values.trim()
+            ? undefined
+            : (smallText[0].innerHTML = "Username is required");
+        } else {
+          smallText[0].innerHTML = "";
+        }
+      }
+      function errorPassword(values) {
+        password.oninput = function () {
+          smallText[1].innerHTML = "";
+        };
+        if (password.value == "") {
+          return values.trim()
+            ? undefined
+            : (smallText[1].innerHTML = "Password is required");
+        } else if (password.value.length < 6) {
+          smallText[1].innerHTML = "Password must more 6 characters";
+        } else {
+          smallText[1].innerHTML = "";
+        }
+      }
+      function errorConfimPsw(values) {
+        if (confirm_password.value == "") {
+          return values.trim()
+            ? undefined
+            : (smallText[2].innerHTML = "Confirm password is required");
+        } else if (confirm_password.value !== password.value) {
+          smallText[2].innerHTML = "Password and Confirm password is not match";
+          // return false;
+        } else {
+          smallText[2].innerHTML = "";
+        }
+      }
+
+      function done() {
+        if (
+          nameUser.value &&
+          password.value &&
+          password.value.length >= 6 &&
+          confirm_password.value == password.value
+        ) {
+          success.style.visibility = "visible";
+          nameUser.value = "";
+          password.value = "";
+          confirm_password.value = "";
+        }
+      }
+
+      form.addEventListener("submit", function (e) {
+        e.preventDefault();
+        errorName(nameUser.value);
+        errorPassword(password.value);
+        errorConfimPsw(confirm_password.value);
+        done();
+      });
+    </script>
+  </body>
+</html>

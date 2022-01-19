@@ -1,0 +1,470 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+  color: #333;
+}
+a:hover {
+  color: #006ba0;
+}
+img {
+  width: 100%;
+}
+body {
+  font-size: 15px;
+  font-family: segoe ui;
+}
+.container {
+  overflow: hidden;
+}
+/* BL */
+.manutren {
+  width: 100%;
+  height: 57px;
+  background-color: #fff;
+  margin-top: 5px;
+  border-bottom: 1px solid rgb(230, 228, 228);
+}
+.manutrenwidth {
+  width: 1375px;
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+}
+.c1 {
+  width: 120px;
+}
+.c1 img {
+  height: 56px;
+  width: auto;
+}
+.c2 {
+  width: 1100px;
+}
+.c2 a {
+  padding: 10px 8px;
+  font-weight: 700;
+  font-size: 19px;
+  display: inline-block;
+}
+.c2 a:hover {
+  color: #3399cc;
+  padding-bottom: 18px;
+  border-bottom: 4px solid #3399cc;
+}
+.c3 {
+  width: 85px;
+}
+.c3 img {
+  width: 30px;
+  height: 30px;
+  padding: 10px 5px;
+}
+.c3 .search:hover {
+  color: #3399cc;
+}
+/* manutren */
+.nd {
+  width: 1375px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+.nd .c1 {
+  width: 385px;
+}
+/* cot1body */
+.nd .c1body {
+  display: flex;
+  width: 385px;
+  justify-content: space-between;
+  border-bottom: 1px solid rgb(230, 228, 228);
+  padding-bottom: 12px;
+  margin-bottom: 12px;
+}
+.nd .c1body .trai {
+  width: 150px;
+}
+.nd .c1body .trai img {
+  width: 150px;
+  height: 100px;
+}
+.nd .c1body .phai {
+  width: 220px;
+}
+.nd .c1body .phai a {
+  font-weight: bold;
+  font-size: 16px;
+}
+/* cot1body1 */
+.nd .c1body1 {
+  display: flex;
+  width: 385px;
+  justify-content: space-between;
+}
+.nd .c1body1 .trai {
+  width: 150px;
+}
+.nd .c1body1 .trai img {
+  width: 150px;
+  height: 100px;
+}
+.nd .c1body1 .phai {
+  width: 220px;
+}
+.nd .c1body1 .phai a {
+  font-weight: bold;
+  font-size: 16px;
+}
+.nd .cot2 {
+  width: 615px;
+}
+.nd .cot2 h1 {
+  margin-bottom: 16px;
+  font-size: 37px;
+}
+.nd .cot2 p {
+  margin-bottom: 16px;
+  font-size: 17px;
+}
+.nd .cot2 li {
+  font-size: 18px;
+  font-weight: 600;
+}
+.cot3 {
+  width: 325px;
+}
+.cot3body h3 {
+  font-size: 20px;
+}
+.cot3body {
+  margin-bottom: 30px;
+}
+/* xong bo cuc tren */
+.khoivang {
+  background-color: #ffde76;
+  width: 1450px;
+  height: 900px;
+  margin: auto;
+  margin-top: 50px;
+}
+.khoivang .khoivangtrong {
+  width: 1375px;
+  margin: auto;
+  padding-top: 40px;
+}
+.khoivang .khoivangtrong .texttrendau {
+  width: 1375px;
+  display: flex;
+}
+.khoivang .khoivangtrong .text {
+  font-size: 30px;
+  font-weight: 700;
+}
+.gachcheo {
+  color: rgb(216, 11, 11);
+  padding-right: 5px;
+  font-weight: 1000;
+  font-size: 30px;
+}
+.khoivang .khoivangtrong .texttrendau .phai a {
+  padding-left: 40px;
+  font-size: 18px;
+  font-weight: bold;
+}
+.khoivang .khoivangtrong a:hover {
+  color: rgb(216, 11, 11);
+}
+.khoivang .khoivangtrong .texttrendau .phai {
+  padding-top: 8px;
+  margin-left: 20px;
+}
+.khoivang .khoivangtrong .vangflex1 {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+.khoivang .khoivangtrong .vangflex1 .trai {
+  width: 675px;
+  position: relative;
+}
+.khoivang .khoivangtrong .vangflex1 .trai .lop2 {
+  position: absolute;
+  top: 259px;
+  left: 28px;
+  color: whitesmoke;
+  font-size: 20px;
+  font-weight: bold;
+  width: 500px;
+}
+.khoivang .khoivangtrong .vangflex1 .trai .lop3 {
+  opacity: 15%;
+  height: 200px;
+  background-color: rgb(4, 2, 32);
+  position: absolute;
+  top: 249px;
+  left: 0px;
+  width: 675px;
+}
+.khoivang .khoivangtrong .vangflex1 .phai {
+  width: 325px;
+}
+.khoivang .khoivangtrong .vangflex1 .phai a:hover {
+  color: #006ba0;
+}
+.khoivang .khoivangtrong .vangflex2 {
+  width: 1375px;
+  display: flex;
+  margin-top: 30px;
+  justify-content: space-between;
+}
+.khoivang .khoivangtrong .vangflex2 .phai {
+  width: 325px;
+}
+.khoivang .khoivangtrong .vangflex2 .phai a:hover {
+  color: #006ba0;
+}
+.width {
+  width: 1375px;
+  margin: auto;
+}
+.tieude {
+  width: 1375px;
+  margin: auto;
+  margin-top: 100px;
+}
+.tieude .text {
+  font-size: 30px;
+  font-weight: 700;
+}
+.dangnhap {
+  color: #888;
+  font-size: 18px;
+}
+.dangnhap a {
+  color: #008cc5;
+}
+.nd2flex {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 0px;
+  width: 1375px;
+}
+.nd2flex .traito {
+  width: 933px;
+}
+/* 111 */
+.nd2flex .trai {
+  width: 933px;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid rgb(209, 209, 209);
+  padding-bottom: 20px;
+  margin-top: 25px;
+}
+.nd2flex .trai .trai1 {
+  width: 308px;
+}
+.nd2flex .trai .trai2 {
+  width: 592px;
+}
+.nd2flex .trai .trai2 h3 {
+  font-size: 30px;
+}
+.nd2flex .trai .trai2 .time {
+  margin-top: 10px;
+}
+.nd2flex .trai .trai2 .time1 {
+  color: rgb(184, 183, 183);
+  text-transform: uppercase;
+  padding-right: 15px;
+}
+.nd2flex .trai .trai2 .textbe {
+  margin-top: 10px;
+  color: rgb(153, 153, 153);
+  font-size: 18px;
+}
+/* 112 */
+.nd2flex .trai11 {
+  width: 933px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 25px;
+}
+.nd2flex .trai11 .trai1 {
+  width: 308px;
+}
+.nd2flex .trai11 .trai2 {
+  width: 592px;
+}
+.nd2flex .trai11 .trai2 h3 {
+  font-size: 30px;
+}
+.nd2flex .trai11 .trai2 .time {
+  margin-top: 10px;
+}
+.nd2flex .trai11 .trai2 .time1 {
+  color: rgb(184, 183, 183);
+  text-transform: uppercase;
+  padding-right: 15px;
+}
+.nd2flex .trai11 .trai2 .textbe {
+  margin-top: 10px;
+  color: rgb(153, 153, 153);
+  font-size: 18px;
+}
+/* 113 */
+.nd2flex .phai {
+  width: 413px;
+}
+.khoichungkhoan {
+  color: #888;
+  background-color: rgb(248, 246, 246);
+  margin-top: 10px;
+  padding-bottom: 10px;
+  margin-bottom: 15px;
+}
+.khoichungkhoan .khung {
+  width: 385px;
+  display: flex;
+  margin: auto;
+  justify-content: space-between;
+  padding-top: 10px;
+}
+.khoichungkhoan .khung .khungtrai {
+  border-right: 1px solid rgb(187, 186, 186);
+}
+.khoichungkhoan .khung .khungtrai p {
+  font-size: 16px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  margin-bottom: 5px;
+}
+.khoichungkhoan .khung .khungtrai .muavao {
+  color: #333;
+  margin-bottom: 5px;
+  font-weight: 500;
+}
+.khoichungkhoan .khung .khungtrai .vni {
+  font-weight: bold;
+  color: #333;
+  padding-right: 40px;
+}
+.khoichungkhoan .khung .khungtrai .sonho {
+  font-size: 12px;
+  font-weight: 500;
+  background-color: #daf1d0;
+  padding: 2px 4px;
+}
+/* khungtrai1  */
+
+.khoichungkhoan .khung .khungtrai1 p {
+  font-size: 16px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  margin-bottom: 5px;
+}
+.khoichungkhoan .khung .khungtrai1 .muavao {
+  color: #333;
+  margin-bottom: 5px;
+  font-weight: 500;
+}
+.khoichungkhoan .khung .khungtrai1 .vni {
+  font-weight: bold;
+  color: #333;
+  padding-right: 50px;
+}
+.imgduoi {
+  width: 1335px;
+  margin: auto;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+.nd3flex {
+  width: 1375px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.nd3flex .nd3flex2 {
+  width: 325px;
+}
+.nd3flex .nd3flexnho {
+  width: 325px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+  border-top: 1px solid rgb(219, 219, 219);
+  padding-top: 20px;
+}
+.nd3flex .nd3flexnho .left {
+  width: 145px;
+}
+.nd3flex .nd3flexnho .right {
+  width: 165px;
+  padding-top: 20px;
+}
+.nd3flex2 a img {
+  margin-top: 20px;
+}
+.khungvideo {
+  width: 1375px;
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  background-color: rgb(231, 228, 228);
+  margin-top: 20px;
+}
+.khungvideo .khungtrai {
+  width: 965px;
+}
+.khungvideo .khungtrai img {
+  width: 100%;
+}
+.khungvideo .khungphai {
+  width: 385px;
+}
+.khungvideo .khungphai .khungphainho {
+  display: flex;
+  justify-content: space-between;
+  padding: 12px 0px;
+}
+.khungvideo .khungphai .left1 {
+  width: 165px;
+}
+.khungvideo .khungphai .right1 {
+  width: 205px;
+}
+.cuoicung {
+  height: 100px;
+  background-color: rgb(241, 239, 239);
+  margin-top: 40px;
+  color: rgb(133, 133, 133);
+  font-size: 18px;
+}
+.cuoicung .cuoicungflex {
+  width: 1375px;
+  margin: auto;
+  justify-content: space-between;
+  display: flex;
+}
+.cuoicung .cuoicungflex .column1 {
+  width: 120px;
+  padding-top: 35px;
+}
+.cuoicung .cuoicungflex .column2 {
+  width: 475px;
+  padding-top: 26px;
+  margin-right: 330px;
+}
+.cuoicung .cuoicungflex .column3 {
+  width: 310px;
+  padding-top: 26px;
+}
+.trai:hover .trai2 a {
+  color: red;
+}
